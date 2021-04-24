@@ -12,13 +12,13 @@ The [Dockerfile](https://github.com/adilinden-oss/docker-ffmpeg/blob/master/Dock
 
 Build it from Github
 
-    git clone https://github.com/adilinden-oss/docker-ffmpeg.git
-    cd docker-rpi-ffmpeg
-    docker build -t adilinden/ffmpeg .
+    git clone https://github.com/peddamat/docker-ffmpeg.git
+    cd docker-ffmpeg
+    docker build -t peddamat/ffmpeg .
 
 Or, get it from Docker Hub
 
-    docker pull adilinden/ffmpeg
+    docker pull peddamat/rpi-ffmpeg-44
 
 ## Usage
 
