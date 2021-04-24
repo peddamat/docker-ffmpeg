@@ -1,6 +1,6 @@
 FROM alpine:3.9 AS builder
 
-ARG FFMPEG_TAG=n4.1.1
+ARG FFMPEG_TAG=n4.4
 
 # Get build deps
 RUN apk add --no-cache --update \
